@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+header {
+  display: flex;
+  font-size: 14px;
+  margin: 10px 10px 0 10px;
+}
+
+.header-left {
+  padding: 6px;
+}
+
+footer, .header-left, ul, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+justify-content: space-between;
+}
+
+.header-left a, .header-right a{
+  margin: 8px;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#sign-in {
+  background-color: rgb(36, 113, 255);
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 3px;
+  margin: 8px;
+}
+
+#sign-in:hover {
+  text-decoration: none;
+}
+
+#waffle-icon {
+  width: 32px;
+  margin: 3px 7px 0 7px;
+  cursor: pointer;
+}
+
+.page-center {
+  margin-top: 190px;
+}
+
+.google-heading, .search, .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.google-heading {
+  margin: auto;
+  margin-top: 70px;
+}
+
+.mic {
+  width: 20px;
+  position: relative;
+  top: 21px;
+  right: 45px;
+}
+
+.search-and-buttons {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.search-bar {
+  width: 80%;
+  max-width: 584px;
+  margin: 1em;
+  border: 1px solid #ECEDEF;
+  border-radius: 20px;
+  height: 35px;
+  padding: 0 35px;
+}
+
+.search-bar:hover, .search-bar:focus {
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-icon {
+  width: 20px;
+  position: relative;
+  top: 22px;
+  opacity: 0.6;
+  left: 42px;
+}
+
+.buttons {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.gray-btn {
+  border: none;
+  border-radius: 3.5px;
+  color: #585858;
+  background-color: #F3F3F3;
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+#feeling-lucky {
+  margin-left: 7px;
+}
+
+footer {
+  background-color: #F3F3F3;
+  display: flex;
+  justify-content: space-between;
+  width: 99.4%;
+  height: 2.5rem;  
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+    color: #585858;
+}
+
+.footer-left a {
+  padding-left: 23px;
+}
+
+.footer-right a {
+  padding-right: 23px;
+}
+
+@media (max-width: 590px) {
+  #sign-in {
+    padding: 6px 8px;
+    font-size: 0.95em;
+  }
+  
+  #waffle-icon {
+  width: 28px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  footer, .footer-left {
+    padding-bottom: 15px;
+  }
+  
+}
+
+@media (max-width: 426px) {
+  .header-right ul {
+    display: none;
+  }
+  
+  .hamburger-menu {
+  display: block;
+}
+  
+  .menu-icon {
+    width: 30px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 335px) {
+  footer a {
+    font-size: 0.85em;
+  }
+}

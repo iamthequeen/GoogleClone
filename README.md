@@ -5,7 +5,7 @@ A clone of the Google homepage design.
 
 
 
-Link: 
+Link: https://notactuallygoogle.netlify.app/
 
 
 
@@ -40,7 +40,7 @@ Project is created with:
 
 
 
--  Making the sign in button responsive
+-  Making the "sign in" btton responsive
 
 -  The display of the footer once the screen width decreases
 
